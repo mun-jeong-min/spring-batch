@@ -33,7 +33,7 @@ public class ExamScheduler {
             Date time = new Date();
 
             String time1 = format1.format(time);
-
+            
             jobParametersMap.put("requestDate", new JobParameter(time1));
 
             JobParameters parameters = new JobParameters(jobParametersMap);
